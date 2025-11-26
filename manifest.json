@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Auto JFIF → JPG Converter",
+  "version": "1.0",
+  "description": "Automatically converts downloaded .jfif images to .jpg and removes the original .jfif.",
+  "permissions": [
+    "downloads",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
